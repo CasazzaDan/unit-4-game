@@ -1,57 +1,79 @@
 body {
-    background: url(../images/dark-grey-terrazzo.png);
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    float: left;
-    padding: .5em;
+    background: url(../images/crystalCave.jpg);
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Gochi Hand', cursive;  */
+    font-family: 'Caveat Brush', cursive;
+    opacity: 0.85;
+}
+.container {
+    padding: 10px;
 }
 
-h1 {
-    background-color: chocolate;
+#title {
+    background-color: grey;
     color: white;
     padding: 10px;
-   
+    text-align: center;
+    font-size: 56px;
+    font-family: 'Permanent Marker', cursive;
 }
 
-h4 {
-    background-color: darkgreen;
-    color: cyan;
-    width: 30%;
+#rules {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
-.rules {
-    width: 50%;
-    background-color: khaki;
-    color: darkgreen;
-    
+#rules h2{
+    font-size: 40px;
 }
 
-.row {
-    padding-bottom: 1em;
-    
+#rules p{
+    font-size: 19px;
 }
+
+hr {
+    border-top: 5px solid;
+    color: white;
+}
+
 #targetNumber {
-    background-color: darkgreen;
-     
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-left-width: 3px;
+}
+
+#randomNumber {
+    font-size: 50px;
+    padding: 10px;
 }
 
 #winsLosses {
-    background-color: blueviolet;
-    color: ghostwhite;
-}
-
-button {
-    padding: .5em;
-}   
-
-img {
-    width: 120px;
-    height: 120px;
-}
-
-.gemTotal {
-    background-color: darkgreen;
-    color: cyan;
-    width: 30%; 
-    font-size: 55px;
+    background-color: grey;
+    color: white;
     text-align: center;
+    padding: 10px;
+}
+
+#userTotal {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#userNumber {
+    font-size: 75px;
+    padding: 10px;
+}
+
+#winsLosses {
+    padding: 40px;
+}
+
+.gem {
+    padding: 17px;
 }
